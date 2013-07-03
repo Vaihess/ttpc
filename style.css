@@ -1,0 +1,39 @@
+body
+{
+    background-color: yellow; /* Le fond de la page sera jaune */
+    color: black; /* Le texte de la page sera noir */
+    text-align: center;
+}
+#resultats {
+ width: 70%;
+ padding: 2px; 
+ border-spacing: 2px; 
+ border-collapse: collapse;
+}
+.tabcenter{
+   margin-left:auto;
+   margin-right:auto;
+}
+
+td, th /* Mettre une bordure sur les td ET les th */
+{
+    border: 1px solid black;
+    text-align: center;
+    width: 50px;
+}
+h2
+{
+    color: red;
+    text-align: center;
+}
+h3
+{
+    color: blue;
+    text-align: center;
+}
+h4
+{
+	font-size: 9;
+	color:green;
+	text-align: center;
+}
