@@ -30,16 +30,35 @@ Vos points actuels : <input type="number" name="points_moi" size="4" value="500"
 <option value="10">10</option>
 </select>
 
-<select name="coefficient">
-<option value=""> ----- Choisir le coefficient ----- </option>
+<select name="coefficient" STYLE="width:275">
+<option value="" class='gras' style="color:red" >Sélectionnez votre compétition :</option>
+<option value="1"> Championnat de France par équipes (National, Régional, Départemental)</option>
+<option value="1.25"> Critérium Fédéral Senior (National, Régional, Départemental)</option>
+<option value="1"> Critérium Fédéral Jeunes (National, Régional, Départemental)</option>
+<option value="1.5"> Championnat de France individuel sénior</option>
+<option value="1"> Championnat de France Jeunes (National, Régional, Départemental)</option>
+<option value="0.5"> Interclubs Jeunes (National, Régional, Départemental)</option>
+<option value="1.25"> Finales par Classement (National, Régional, Départemental)</option>
+<option value="0.75"> Challenge Bernard Jeu (National, Régional)</option>
+<option value="1"> Finales Individuelles (Régional,Départemental)</option>
+<option value="1"> Championnat de France Vétérans (National, Régional, Départemental)</option>
+<option value="1"> Championnat de France Corporatifs (National, Régional, Départemental)</option>
+<option value="0.75"> Championnat de France des Régions (National)</option>
+<option value="0.75"> Coupe Nationale Vétérans (National, Régional, Départemental)</option>
+<option value="1"> Coupe Nationale Corporative</option>
+<option value="1.5"> Top national Seniors (N)</option>
+<option value="0.75"> Tournois Nationaux et Internationaux joués en France</option>
+<option value="0.5"> Autres compétitions par équipes Régionales ou Départementales</option>
+<option value="0.5"> Autres compétitions individuelles Régionales ou Départementales</option>
+<option value="" class='gras' style="color:red" >Ou sélectionnez directement le coefficient :</option>
 <option value="0.5">0.5</option>
 <option value="0.75">0.75</option>
 <option value="1">1</option>
 <option value="1.25">1.25</option>
+<option value="1.5">1.5</option>
 </select>
 
 <input type="submit" value="Validez vos choix">
-
 
 </h3>
 <?php require 'footer.php'; ?>
