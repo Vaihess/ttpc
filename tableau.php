@@ -8,7 +8,6 @@ session_start();
         <title>Paramètres des matchs joués</title>
     </head>
 <h2><p>Table Tennis points calculator </p></h2>
-</head>
 <body>
 </html>
 <?php
@@ -54,7 +53,7 @@ $_SESSION['coefficient'] = $coeff;
 $_SESSION['nombre_de_lignes'] = 1;
 //On génère un champ input pour chaque match
 ?>
-<form method="post" action="resultats2.php">
+<form method="post" action="resultats.php">
 <?php
 while ($_SESSION['nombre_de_lignes'] <= $nbm)
 {

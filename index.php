@@ -8,7 +8,6 @@ session_start();
         <title>Page de renseignements</title>
     </head>
 <h2><p>Table Tennis points calculator </p></h2>
-</head>
 <body>
 <h3>
 
