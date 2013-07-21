@@ -129,7 +129,7 @@ if (($diff < 0) and ($result['$nombre_de_lignes'] == "gagné")) {
 
 <?php
 }
-if (($diff > 0) and ($result['$nombre_de_lignes'] == "gagné")) {
+if (($diff >= 0) and ($result['$nombre_de_lignes'] == "gagné")) {
 
 		if ($abs < 24) {
 		$tot = $points['0-24']['$vn'] * $_SESSION['coefficient'];
@@ -190,7 +190,7 @@ if (($diff > 0) and ($result['$nombre_de_lignes'] == "perdu")) {
 
 <?php
 }
-if (($diff < 0) and ($result['$nombre_de_lignes'] == "perdu")) {
+if (($diff <= 0) and ($result['$nombre_de_lignes'] == "perdu")) {
 
 	if ($abs < 24) {
 		$tot = $points['0-24']['$dn'] * $_SESSION['coefficient'];
