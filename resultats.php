@@ -24,7 +24,7 @@ header( 'content-type: text/html; charset=utf-8' );
            <th>Points adversaires</th>
            <th>Différence de points</th>
            <th>Victoire/Défaite</th>
-           <th>Points gagnés/perdus</th>
+           <th>Points gagnés</th>
        </tr>
    </thead>
    <tbody> <!-- Corps du tableau -->
@@ -232,10 +232,19 @@ echo '<br>';
 ?>
 </tbody>
 </table>
+<?php
+if (array_sum($pt) < 0) {
+	$sum = " points perdus";
+	$signe = "-";
+	} else {
+	$sum = " points gagnés";
+	$signe = "+";
+}
+?>
 <h3>
-<pre><p><?php echo "La somme est de : " . array_sum($pt) , " points gagnés"; ?></p></pre>
+<pre><p><?php echo "La somme est de : " . abs(array_sum($pt)) , $sum ; ?></p></pre>
 </h3>
 <h2>
-<pre><p><?php echo "Vous avez maintenant : " , $_SESSION['points_moi'] , "+" , array_sum($pt) , " = " , $_SESSION['points_moi']+array_sum($pt) , " points"; ?></p></pre>
+<pre><p><?php echo "Vous avez maintenant : " , $_SESSION['points_moi'] , $signe , abs(array_sum($pt)) , " = " , $_SESSION['points_moi']+array_sum($pt) , " points"; ?></p></pre>
 </h2>
 <?php require 'footer.php'; ?>
