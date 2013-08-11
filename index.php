@@ -13,7 +13,11 @@ session_start();
 
 <form method="post" action="tableau.php">
 
-Vos points actuels : <input type="number" name="points_moi" size="4" value="500"><br><br><br><br>
+Vos points actuels : <input type="number" name="points_moi" size="4"><br><br>
+Ou votre numéro de licence : <input type="number" name="licence" size="4"><br><br>
+
+<p><input type="radio" name="sexe" value="200" checked="checked" />Compétition masculine</p>
+<p><input type="radio" name="sexe" value="300" />Compétition féminine</p><br>
 
 <select name="nbm">
 <option value=""> ----- Nombre de matchs joués ----- </option>

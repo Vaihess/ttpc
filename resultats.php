@@ -35,7 +35,13 @@ $nombre_de_lignes = 1;
 $pt = array();
 while ($nombre_de_lignes <= $_SESSION['nbm'])
 {
-$pa['$nombre_de_lignes'] = $_POST['points_adv'.$nombre_de_lignes];
+	$pa['$nombre_de_lignes'] = $_POST['points_adv'.$nombre_de_lignes];
+	if ($pa['$nombre_de_lignes'] != "") {
+		} else {
+		$_SESSION['licence'] = $_POST['licence'.$nombre_de_lignes]; //on récupère le n° de licence
+		require ('script_ptadv.php'); //on exécute le script de récupération des points à partir du n° de licence 
+		$pa['$nombre_de_lignes'] = $_SESSION['points_adv']; // On récupère les points
+		}
 $result['$nombre_de_lignes'] = $_POST['choix'.$nombre_de_lignes];
 // Tableau de comptage
 $points = array();
