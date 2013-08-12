@@ -12,7 +12,6 @@ foreach ($http_response_header as $h) {
         $cookies[] = substr($h, strlen('Set-Cookie: '), strpos($h, ';') - strlen('Set-Cookie: '));
     }
 }
-
 $data = http_build_query(
     array(
         'cler' => $xpath->query('//input[@name = "cler"]')->item(0)->getAttribute('value'),
