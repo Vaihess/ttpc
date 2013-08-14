@@ -24,7 +24,7 @@ $color = 'red';
 header("Refresh: 5; URL=index.php" );
 }
 else {
-echo "les deux premiers champs sont remplis correctement";
+echo "";
 }
 // Vérification du champ points_moi
 if(!is_numeric($pm) AND !is_numeric($_SESSION['licence'])) 
@@ -86,7 +86,7 @@ while ($_SESSION['nombre_de_lignes'] <= $nbm)
    $_SESSION['licence'] = $licence;
 ?>
 <td><?php echo $_SESSION['nombre_de_lignes'] ;?></td>
-<td><input type="text" size="4" name="<?php echo $_SESSION['nom'] ; ?>"> OU <input type="text" size="4" name="<?php echo $_SESSION['licence'] ; ?>"></td>
+<td><input type="text" size="4" name="<?php echo $_SESSION['nom'] ; ?>"> OU <input type="text" size="8" name="<?php echo $_SESSION['licence'] ; ?>"></td>
 <td><p><input type="radio" name="<?php echo $_SESSION['choix'] ; ?>" value="gagné" checked="checked" />Match gagné</p><input type="radio" name="<?php echo $_SESSION['choix'] ; ?>" value="perdu" />Match perdu</p></td>
 <tr>
 </tr>
