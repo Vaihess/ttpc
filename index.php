@@ -13,11 +13,20 @@ session_start();
 		<META NAME="ROBOTS" CONTENT="INDEX,FOLLOW">
 		<META NAME="REVISIT-AFTER" CONTENT="15days">
 		<META NAME="IDENTIFIER-URL" CONTENT="http://ttpc.biotux.org">
-		<meta name="author" content="Stéphane Leblond" >
+		<meta name="author" content="root" >
 		<META NAME="REPLY-TO" CONTENT="stef@biotux.org">
+		<script type="text/javascript">
+<!--
+function open_tuto()
+{
+window.open('tuto.php','tutoriel','menubar=no, scrollbars=yes, top=100, left=100, width=300, height=200');
+}
+-->
+		</script>		
     </head>
 <h2><p>Table Tennis points calculator </p></h2>
 <body>
+<a href="#null" onclick="javascript:open_tuto();">Mode d'emploi</a>
 <h3>
 
 <form method="post" action="tableau.php">

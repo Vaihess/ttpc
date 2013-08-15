@@ -11,7 +11,7 @@ Licence : GPL
 Utilisation :
 ------------
 
-- Entrez votre nombre de points ou votre numéro de licence dans le champ prévu. Dans ce dernier cas, noubliez pas de choisir le type de 
+- Entrez votre nombre de points ou votre numéro de licence dans le champ prévu. Dans ce dernier cas, n'oubliez pas de choisir le type de 
 championnat (masculin ou féminin). Le script va récupérer les points de votre situation mensuelle à partir de votre numéro de licence.
 - Choisissez le nombre de matchs que vous avez joué.
 - Choisissez le type de compétition parmi celles proposées ou directement le coefficient correspondant.
