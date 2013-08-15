@@ -5,6 +5,7 @@ session_start();
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
+        <meta name="viewport" content="width=device-width"> 
         <title>Paramètres des matchs joués</title>
     </head>
 <h2><p>Table Tennis points calculator </p></h2>
@@ -86,7 +87,7 @@ while ($_SESSION['nombre_de_lignes'] <= $nbm)
    $_SESSION['licence'] = $licence;
 ?>
 <td><?php echo $_SESSION['nombre_de_lignes'] ;?></td>
-<td><input type="text" size="4" name="<?php echo $_SESSION['nom'] ; ?>"> OU <input type="text" size="8" name="<?php echo $_SESSION['licence'] ; ?>"></td>
+<td><input type="number" size="4" name="<?php echo $_SESSION['nom'] ; ?>"> OU <input type="number" size="8" name="<?php echo $_SESSION['licence'] ; ?>"></td>
 <td><p><input type="radio" name="<?php echo $_SESSION['choix'] ; ?>" value="gagné" checked="checked" />Match gagné</p><input type="radio" name="<?php echo $_SESSION['choix'] ; ?>" value="perdu" />Match perdu</p></td>
 <tr>
 </tr>

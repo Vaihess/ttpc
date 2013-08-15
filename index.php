@@ -6,13 +6,14 @@ session_start();
 		<title>TTCP</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
+		<meta name="viewport" content="width=device-width"> 
 		<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="fr">
 		<META NAME="DESCRIPTION" CONTENT="ttpc est un calculateur de points obtenus lors d´une compétition de tennis de table. Calculs des points par match en fonction des points de l´adversaire ou du numéro de licence">
 		<META NAME="KEYWORDS" CONTENT="tennis de table, ping pong, calculateur, points, compétitions, licence, numéro">
 		<META NAME="ROBOTS" CONTENT="INDEX,FOLLOW">
 		<META NAME="REVISIT-AFTER" CONTENT="15days">
 		<META NAME="IDENTIFIER-URL" CONTENT="http://ttpc.biotux.org">
-		<meta name="author" content="stef" >
+		<meta name="author" content="root" >
 		<META NAME="REPLY-TO" CONTENT="stef@biotux.org">
     </head>
 <h2><p>Table Tennis points calculator </p></h2>

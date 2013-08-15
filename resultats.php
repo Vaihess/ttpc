@@ -6,7 +6,8 @@ header( 'content-type: text/html; charset=utf-8' );
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
-        <title>Affichage résultats</title>
+        <meta name="viewport" content="width=device-width"> 
+        <title>Résultats</title>
     </head>
 <body>
 <h2><p>Table Tennis points calculator </p></h2>
