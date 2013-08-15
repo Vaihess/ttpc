@@ -24,7 +24,7 @@ header( 'content-type: text/html; charset=utf-8' );
 			  <th>Match</th>
            <th>Points adversaires</th>
            <th>Différence de points</th>
-           <th>Victoire/Défaite</th>
+           <th>Victoire - Défaite</th>
            <th>Points gagnés</th>
        </tr>
    </thead>
