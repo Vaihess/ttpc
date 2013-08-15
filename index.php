@@ -13,7 +13,7 @@ session_start();
 		<META NAME="ROBOTS" CONTENT="INDEX,FOLLOW">
 		<META NAME="REVISIT-AFTER" CONTENT="15days">
 		<META NAME="IDENTIFIER-URL" CONTENT="http://ttpc.biotux.org">
-		<meta name="author" content="root" >
+		<meta name="author" content="Stéphane Leblond" >
 		<META NAME="REPLY-TO" CONTENT="stef@biotux.org">
     </head>
 <h2><p>Table Tennis points calculator </p></h2>
