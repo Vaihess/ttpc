@@ -6,7 +6,8 @@ session_start();
 		<title>TTCP</title>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
-		<meta name="viewport" content="width=device-width"> 
+		<meta name="viewport" content="width=device-width">
+		<title>TTPC : Mode d'emploi</title>
 		<META HTTP-EQUIV="CONTENT-LANGUAGE" CONTENT="fr">
 	</head>
 <h2><p>Table Tennis points calculator : mode d'emploi</p></h2>

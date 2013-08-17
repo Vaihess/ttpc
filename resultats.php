@@ -7,7 +7,7 @@ header( 'content-type: text/html; charset=utf-8' );
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
         <meta name="viewport" content="width=device-width"> 
-        <title>Résultats</title>
+        <title>TTPC : Résultats</title>
     </head>
 <body>
 <h2><p>Table Tennis points calculator </p></h2>

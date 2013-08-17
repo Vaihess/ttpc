@@ -6,7 +6,7 @@ session_start();
         <meta charset="utf-8" />
         <link rel="stylesheet" href="style.css" />
         <meta name="viewport" content="width=device-width"> 
-        <title>Paramètres des matchs joués</title>
+        <title>TTPC : Paramètres des matchs joués</title>
     </head>
 <h2><p>Table Tennis points calculator </p></h2>
 <body>
