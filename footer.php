@@ -5,7 +5,7 @@
 <p>Script PHP réalisé par Stéphane Leblond sous <a href = "http://www.gnu.org/licenses/gpl-3.0.fr.html"target="_blank">licence GPL</a><br>
 </p>
 </h4> 
-<? include("compteur.php"); ?>
+<?php include("compteur.php"); ?>
 </footer>
 </body>
 </html>
