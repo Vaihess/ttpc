@@ -26,7 +26,7 @@ window.open('tuto.php','tutoriel','menubar=no, scrollbars=yes, top=100, left=100
     </head>
 <h2><p>Table Tennis points calculator </p></h2>
 <body>
-<a href="#null" onclick="javascript:open_tuto();">Mode d'emploi</a>
+<a href="#null" onclick="javascript:open_tuto();">Mode d'emploi de TTPC</a>
 <h3>
 
 <form method="post" action="tableau.php">
@@ -34,8 +34,8 @@ window.open('tuto.php','tutoriel','menubar=no, scrollbars=yes, top=100, left=100
 Vos points actuels : <input type="number" name="points_moi" size="4"><br><br>
 Ou votre numéro de licence : <input type="number" name="licence" size="8"><br><br>
 
-<p><input type="radio" name="sexe" value="200" checked="checked" />Compétition masculine</p>
-<p><input type="radio" name="sexe" value="300" />Compétition féminine</p><br>
+<p><input type="radio" name="sexe" value="200" checked="checked" />Homme</p>
+<p><input type="radio" name="sexe" value="300" />Femme</p><br>
 
 <select name="nbm">
 <option value="">Nombre de matchs joués</option>

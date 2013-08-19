@@ -40,6 +40,7 @@ while ($nombre_de_lignes <= $_SESSION['nbm'])
 	if ($pa['$nombre_de_lignes'] != "") {
 		} else {
 		$_SESSION['licence'] = $_POST['licence'.$nombre_de_lignes]; //on récupère le n° de licence
+		$_SESSION['sexe'] = $_POST['sexe'.$nombre_de_lignes]; //on récupère le sexe
 		require ('script_ptadv.php'); //on exécute le script de récupération des points à partir du n° de licence 
 		$pa['$nombre_de_lignes'] = $_SESSION['points_adv']; // On récupère les points
 		}

@@ -63,9 +63,10 @@ else {
 <table id="resultats" class="tabcenter">
     <thead> <!-- En-tête du tableau -->
        <tr>
-			  <th>Match n°</th>
-           <th>Points adversaires ou n° de licence</th>
-           <th>Gagné ou perdu</th>
+	   <th>Match n°</th>
+	   <th>Sexe</th>
+      <th>Points adversaires ou n° de licence</th>
+      <th>Gagné ou perdu</th>
        </tr>
    </thead>
    <tbody> <!-- Corps du tableau -->
@@ -82,11 +83,14 @@ while ($_SESSION['nombre_de_lignes'] <= $nbm)
    $nom="points_adv". $_SESSION['nombre_de_lignes'];
    $licence="licence". $_SESSION['nombre_de_lignes'];
    $choix="choix".$_SESSION['nombre_de_lignes'];
+   $sexe="sexe".$_SESSION['nombre_de_lignes'];
    $_SESSION['nom'] = $nom;
    $_SESSION['choix'] = $choix;
    $_SESSION['licence'] = $licence;
+   $_SESSION['sexe'] = $sexe;
 ?>
 <td><?php echo $_SESSION['nombre_de_lignes'] ;?></td>
+<td><p><input type="radio" name="<?php echo $_SESSION['sexe'] ; ?>" value="200" checked="checked" />Homme</p><p><input type="radio" name="<?php echo $_SESSION['sexe'] ; ?>" value="300" />Femme</p></td>
 <td><input type="number" size="4" name="<?php echo $_SESSION['nom'] ; ?>"> OU <input type="number" size="8" name="<?php echo $_SESSION['licence'] ; ?>"></td>
 <td><p><input type="radio" name="<?php echo $_SESSION['choix'] ; ?>" value="gagné" checked="checked" />Match gagné</p><input type="radio" name="<?php echo $_SESSION['choix'] ; ?>" value="perdu" />Match perdu</p></td>
 <tr>
