@@ -1,5 +1,4 @@
 <?php
-session_start();
 // COMPTEUR VISITEURS //
 if (file_exists("compteur_visites.txt")) {
 $fichier_visites = fopen('compteur_visites.txt', 'r+');
@@ -10,6 +9,8 @@ $visites = fgets($fichier_visites); // On lit la première ligne (nombre de page
 	$visites++;// On augmente de 1 ce nombre de visites
 	fseek($fichier_visites, 0); // On remet le curseur au début du fichier
 	fputs($fichier_visites, $visites); // On écrit le nouveau nombre de visite
+	$_SESSION['visites'] = $visites;
+	include("geo.php"); //géolocalisation du visiteur
 	fclose($fichier_visites);
 	echo '<p>Il y a eu ' . $visites . ' visiteurs !</p>';
 	}
@@ -26,6 +27,7 @@ fputs($fichier_visites, $visites);
 fclose($fichier_visites);
 echo '<p>Il y a eu ' . $visites . ' visiteur !</p>';
 }
+
 // COMPTEUR PAGES //
 if (file_exists("compteur.txt")) {
 $monfichier = fopen('compteur.txt', 'r+');

@@ -1,5 +1,4 @@
 <?php
-session_start();
 libxml_use_internal_errors(TRUE);
 
 $dom = new DomDocument;
