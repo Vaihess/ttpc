@@ -5,8 +5,9 @@ Tennis de table - Calculateur de points
 
 Installation :
 -------------
-Copier tous les fichiers à la racine du site et aller sur la page index.php
-Licence : GPL
+- Copier tous les fichiers à la racine du serveur web et aller sur la page index.php
+- Compatible php5 et supérieur
+- Licence : GPL
 
 Utilisation :
 ------------
@@ -20,7 +21,7 @@ championnat (masculin ou féminin). Le script va récupérer les points de votre
 Ensuite, entrez dans les champs prévus :
 
 - soit le nombre de points de vos adversaires
-- soit le numéro de licence de chacun de vos adversaires : les points seront récupérés à partir de leurs situations mensuelles.
+- soit le numéro de licence (et le sexe) de chacun de vos adversaires : les points seront récupérés à partir de leurs situations mensuelles.
 - n'oubliez pas d'indiquer si vous avez gagné ou perdu chacun des matchs.
 
 Résultats :
@@ -29,4 +30,3 @@ Résultats :
 Pour chacun des matchs, vous aurez le nombre de points acquis (ou non ...) à chaque match, le nombre de point total ainsi que le total
 de vos points à l'issue de tous les matchs.
 
-Stéphane Leblond
