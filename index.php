@@ -62,7 +62,7 @@ Ou votre numéro de licence : <input type="number" name="licence" size="8"><br><
 <option value="1.25"> Finales par Classement (National, Régional, Départemental)</option>
 <option value="0.75"> Challenge Bernard Jeu (National, Régional)</option>
 <option value="1"> Finales Individuelles (Régional,Départemental)</option>
-<option value="1"> Championnat de France Vétérans (National, Régional, Départemental)</option>
+<option value="0.5"> Championnat de France Vétérans (National, Régional, Départemental)</option>
 <option value="1"> Championnat de France Corporatifs (National, Régional, Départemental)</option>
 <option value="0.75"> Championnat de France des Régions (National)</option>
 <option value="0.75"> Coupe Nationale Vétérans (National, Régional, Départemental)</option>
