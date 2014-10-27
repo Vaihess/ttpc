@@ -65,7 +65,8 @@ else {
        <tr>
 	   <th>Match n°</th>
 	   <th>Sexe</th>
-      <th>Points adversaires ou n° de licence</th>
+    <th>Points adversaires ou n° de licence</th>
+<!--      <th>Points adversaires</th> -->
       <th>Gagné ou perdu</th>
        </tr>
    </thead>
@@ -92,6 +93,7 @@ while ($_SESSION['nombre_de_lignes'] <= $nbm)
 <td><?php echo $_SESSION['nombre_de_lignes'] ;?></td>
 <td><p><input type="radio" name="<?php echo $_SESSION['sexe'] ; ?>" value="200" checked="checked" />Homme</p><p><input type="radio" name="<?php echo $_SESSION['sexe'] ; ?>" value="300" />Femme</p></td>
 <td><input type="number" size="4" name="<?php echo $_SESSION['nom'] ; ?>"> OU <input type="number" size="8" name="<?php echo $_SESSION['licence'] ; ?>"></td>
+<!--<td><input type="number" size="4" name="<?php echo $_SESSION['nom'] ; ?>"></td>-->
 <td><p><input type="radio" name="<?php echo $_SESSION['choix'] ; ?>" value="gagné" checked="checked" />Match gagné</p><input type="radio" name="<?php echo $_SESSION['choix'] ; ?>" value="perdu" />Match perdu</p></td>
 <tr>
 </tr>

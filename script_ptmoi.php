@@ -36,7 +36,9 @@ $contents = file_get_contents(
     )
 );
 //var_dump($contents);
-$recherche = '#Pts : (.+)</td>#';
+//$recherche = '#Pts : (.+)</td>#';
+//$recherche = '#<td width=\'99\' align=\'center\' bgcolor=\#EBEBEB>(.+)</td>#';
+$recherche = '#<td width=\'25%\' bgcolor=\'\#FFFFFF\' align=center><b>(.+)</td><td width=\'37%\'>#';
 preg_match ($recherche, $contents, $out);
 $_SESSION['points_moi'] = $out[1];
 ?>
